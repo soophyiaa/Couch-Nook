@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 
 
@@ -13,6 +18,7 @@
 
     <div id="cabeçalho">
         <header>
+            <span id="iconegame">🎮</span>
             <h1>COUCH&NOOK</h1>
         </header>
     </div>
@@ -22,10 +28,12 @@
 
         <div id="intro">
             <section>
-                <h2>Bem vindo(a) ao Couch&Nook!</h2>
-                <p><i>fale a lingua do mundo, viva sem fronteiras</i>!📖</p>
+                <h2 id="bemvindo">Bem vindo(a) ao Couch&Nook!</h2>
+                <p id="p">fale a lingua do mundo, viva sem fronteiras!</p>
                 <br>
-                <p>O Couch&Nook foi pensado minimamente em cada detalhe para os amantes e curiosos pelo aprendizado e
+                <br>
+                <p id="p2">O Couch&Nook foi pensado minimamente em cada detalhe para os amantes e curiosos pelo
+                    aprendizado e
                     cultura de idiomas com uma pitada de diversão.</p>
             </section>
         </div>
@@ -42,32 +50,39 @@
 
         <br>
 
-        <div id="email">
-            <section>
-                <h3>Faça o login para começar nessa jornada imersiva!</h3>
-                <br>
-                <br>
+    
+        <div id="formulario">
 
                 <form action="" method="post">
-                    <label for="email">email:</label>
-                    <input type="email" name="email" id="email" required>
-        </div>
-        <br>
 
-        <div id="senha">
-            <label for="senha">senha:</label>
-            <input type="password" name="senha" id="senha" required>
-        </div>
-        <br>
-        <div id="nome">
-            <label for="nome">nome de usuário: </label>
-            <input type="text" name="nome" id="nome" required>
-        </div>
+                    <div id="email">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
-        </form>
-        </section>
-        <br>
+                    <br>
 
+                    <div id="senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" required>
+                    </div>
+
+                    <br>
+
+                    <div id="nome">
+                        <label for="nome">Nome de usuário:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <br>
+
+                    <button type="submit" id="butaoentrar"> 🎮ENTRAR </button>
+
+                </form>
+
+            </section>
+
+        </div>
         <div id="rodape">
             <footer>
                 <p>&copy; 2026 Couch&Nook. Todos os direitos reservados.</p>

@@ -1,0 +1,70 @@
+*{
+    font-family: "Press Start 2P";
+}
+
+body{
+    margin: 0%;
+    font-family: "Press Start 2P";
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 15px;
+    box-sizing:border-box
+
+
+    
+
+}
+   
+}
+
+#cabeçalho{
+    background-color: #A66ADB;
+
+    width: 450px;
+    padding: 30px;
+
+    border-radius: 15px;
+    border: 1px solid #663399;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#iconegame{
+    font-size: 40px;
+}
+#bemvindo{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#p{
+    font-size: 10px;
+}
+
+#p2{
+    font-size: 13px;
+    margin-top: 50px;
+
+}
+
+#formulario{
+    background-color: #A66ADB;
+    width: 450px;
+    padding: 100px;
+    border-radius: 15px;
+    border: 1px solid #663399;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#campo-email,
+#campo-senha,
+#campo-nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#
+
