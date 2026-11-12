@@ -1,0 +1,418 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    background-color: #321006;
+    color: white;
+    font-family: "Press Start 2P", monospace;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+#app {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#tela {
+    background-color: #6b210d;
+    border: 8px solid #ff9b35;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 30px 45px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+
+#perfil {
+    align-items: center;
+    background-color: #a9431d;
+    border: 5px solid black;
+    box-shadow: 7px 7px #ff9b35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 145px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+#identidade {
+    text-align: center;
+    width: 100%;
+}
+
+#titulo {
+    color: #ffe66d;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#subt {
+    color: white;
+    display: block;
+    font-size: 9px;
+    line-height: 2;
+    text-align: center;
+}
+
+#estrela {
+    color: #ffe66d;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+/* ESTATÍSTICAS */
+
+#estatistica {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 15px 0 0;
+    width: 100%;
+}
+
+#item-pontos,
+#item-conquistas,
+#item-dias {
+    align-items: center;
+    background-color: #321006;
+    border: 3px solid #ff9b35;
+    box-shadow: 4px 4px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    min-height: 85px;
+    padding: 12px;
+    text-align: center;
+    width: 110px;
+}
+
+#icone-pontos,
+#icone-conquistas,
+#icone-dias {
+    font-size: 20px;
+}
+
+#texto-pontos,
+#texto-conquistas,
+#texto-dias {
+    color: #ffe66d;
+    font-size: 8px;
+}
+
+#valor-pontos,
+#valor-conquistas,
+#valor-dias {
+    color: white;
+    font-size: 12px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+#conteudo {
+    display: flex;
+    flex: 1;
+    gap: 35px;
+    margin-top: 35px;
+    min-height: 0;
+}
+
+#coluna-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+}
+
+#coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 55%;
+}
+
+/* IDIOMAS */
+
+#idiomas {
+    background-color: #a9431d;
+    border: 5px solid black;
+    box-shadow: 6px 6px #ff9b35;
+    padding: 25px;
+    text-align: center;
+}
+
+#h2 {
+    color: #ffe66d;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#idiomaescolhido {
+    background-color: #321006;
+    border: 4px solid #ffe66d;
+    box-shadow: 5px 5px black;
+    padding: 25px;
+}
+
+#link-espanhol {
+    align-items: center;
+    color: #ffe66d;
+    display: flex;
+    font-size: 12px;
+    gap: 15px;
+}
+
+/* BANDEIRAS */
+
+#bandingles,
+#bandespanhol,
+#bandfrances,
+#bandcoreano {
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    display: inline-block;
+    flex-shrink: 0;
+    height: 35px;
+    width: 55px;
+}
+
+#bandingles {
+    background-image: url("https://flagcdn.com/w80/gb.png");
+}
+
+#bandespanhol {
+    background-image: url("https://flagcdn.com/w80/es.png");
+}
+
+#bandfrances {
+    background-image: url("https://flagcdn.com/w80/fr.png");
+}
+
+#bandcoreano {
+    background-image: url("https://flagcdn.com/w80/kr.png");
+}
+
+/* ADICIONAR IDIOMAS */
+
+#embutido {
+    background-color: #a9431d;
+    border: 5px solid black;
+    box-shadow: 6px 6px #ff9b35;
+    padding: 25px;
+    text-align: center;
+}
+
+summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+#resumo-idiomas,
+#resumo-cultura {
+    color: #ffe66d;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#resumo-idiomas {
+    background-color: #ff9b35;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    color: #321006;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+#adc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+#item-espanhol,
+#item-frances,
+#item-coreano {
+    background-color: #321006;
+    border: 3px solid #ff9b35;
+    padding: 18px;
+}
+
+#link-espanhol,
+#link-frances,
+#link-coreano,
+#link-ingles {
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 11px;
+    gap: 15px;
+}
+
+/* PRÁTICA */
+
+#barrapratica {
+    align-items: center;
+    background-color: #a9431d;
+    border: 5px solid black;
+    box-shadow: 6px 6px #ff9b35;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 280px;
+    padding: 30px;
+    text-align: center;
+}
+
+#pratique {
+    color: #ffe66d;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#fase {
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#verbo {
+    color: #ffd09a;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#barrinha {
+    background-color: #321006;
+    border: 4px solid black;
+    height: 25px;
+    margin: 30px 0;
+    width: 75%;
+}
+
+#start {
+    background-color: #ffe66d;
+    border: 4px solid black;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    padding: 20px 40px;
+}
+
+#link-start {
+    color: black;
+    font-family: "Press Start 2P", monospace;
+    font-size: 14px;
+}
+
+/* CULTURA */
+
+#cultural {
+    background-color: #a9431d;
+    border: 5px solid black;
+    box-shadow: 6px 6px #ff9b35;
+    padding: 25px;
+}
+
+#listinha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+#historia,
+#comidas,
+#cultura,
+#lendas {
+    background-color: #321006;
+    border: 3px solid #ff9b35;
+    box-sizing: border-box;
+    padding: 18px;
+    width: calc(50% - 8px);
+}
+
+#link-historia,
+#link-comidas,
+#link-cultura,
+#link-lendas {
+    color: #ffe66d;
+    font-size: 10px;
+    line-height: 2;
+}
+
+/* MENU INFERIOR */
+
+#menu {
+    align-items: center;
+    background-color: #321006;
+    border: 4px solid #ff9b35;
+    box-shadow: 5px 5px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    padding: 22px;
+}
+
+#link-progresso,
+#link-configuracoes {
+    color: #ffe66d;
+    font-size: 11px;
+    padding: 10px;
+}
+
+/* EFEITOS */
+
+a:hover {
+    color: #ff9b35;
+}
+
+#idiomaescolhido:hover,
+#item-espanhol:hover,
+#item-frances:hover,
+#item-coreano:hover,
+#historia:hover,
+#comidas:hover,
+#cultura:hover,
+#lendas:hover {
+    border-color: #ffe66d;
+}
+
+#start:hover {
+    background-color: #ff9b35;
+}
+
+#link-progresso:hover,
+#link-configuracoes:hover {
+    color: #ff9b35;
+}
+
+#resumo-idiomas:hover,
+#resumo-cultura:hover {
+    color: #ff9b35;
+}

@@ -1,27 +1,328 @@
-body{
-    margin: 0%;
-    background-color: rgb(74, 0, 142);
-    color: black;
-    font-family: monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+/* CONFIGURAÇÕES GERAIS */
 
-    #painelprincipal{
-        background-color: rgb(132, 48, 206);
-        border: 4px solid;
-        padding: 15px;
-        border-radius: 12px;
-        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.6);
-        
-
-    }
-
-    #cabeçalho{
-        background-color: rgb(169, 78, 255);
-        padding: 3%;
-        text-align: center;
-    }
+#corpo {
+    background-color: #250044;
+    color: white;
+    font-family: "Press Start 2P", monospace;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
-   
+
+#painelprincipal {
+    width: 100%;
+}
+
+
+/* CABEÇALHO */
+
+#cabecalho {
+    background-color: #7629a8;
+    border: 6px solid #ff55c8;
+    box-shadow: 8px 8px black;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+#titulo {
+    color: #ffe66d;
+    font-size: 22px;
+    margin: 10px;
+}
+
+
+/* APRESENTAÇÃO */
+
+#escolha {
+    margin-bottom: 35px;
+}
+
+#titulo-escolha {
+    color: #ffe66d;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+#texto-escolha {
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* ÁREA DOS IDIOMAS */
+
+#escolhamundos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+
+
+/* CARTÕES */
+
+#mundo-ingles,
+#mundo-espanhol,
+#mundo-frances,
+#mundo-coreano {
+    background-color: #7629a8;
+    border: 6px solid #ff55c8;
+    box-shadow: 7px 7px black;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 47%;
+}
+
+
+/* RESUMOS CLICÁVEIS */
+
+#resumo-ingles,
+#resumo-espanhol,
+#resumo-frances,
+#resumo-coreano {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    min-height: 85px;
+}
+
+#resumo-ingles::-webkit-details-marker,
+#resumo-espanhol::-webkit-details-marker,
+#resumo-frances::-webkit-details-marker,
+#resumo-coreano::-webkit-details-marker {
+    display: none;
+}
+
+
+/* BANDEIRAS */
+
+#bandeira-ingles,
+#bandeira-espanhol,
+#bandeira-frances,
+#bandeira-coreano {
+    border: 3px solid black;
+    height: 55px;
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 85px;
+}
+
+
+/* NOMES DOS IDIOMAS */
+
+#nome-ingles,
+#nome-espanhol,
+#nome-frances,
+#nome-coreano {
+    color: #ffe66d;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* NOMES DOS LUGARES */
+
+#local-ingles,
+#local-espanhol,
+#local-frances,
+#local-coreano {
+    color: #ffb4e6;
+    font-size: 9px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+
+/* CONTEÚDO QUE APARECE AO CLICAR */
+
+#conteudo-ingles,
+#conteudo-espanhol,
+#conteudo-frances,
+#conteudo-coreano {
+    align-items: center;
+    background-color: #250044;
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+
+/* TÍTULOS DOS CONTEÚDOS */
+
+#titulo-ingles,
+#titulo-espanhol,
+#titulo-frances,
+#titulo-coreano {
+    color: #ffe66d;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* IMAGENS HISTÓRICAS */
+
+#imagem-ingles,
+#imagem-espanhol,
+#imagem-frances,
+#imagem-coreano {
+    border: 4px solid black;
+    height: 210px;
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 38%;
+}
+
+
+/* DESCRIÇÕES HISTÓRICAS */
+
+#historia-ingles {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    width: 55%;
+}
+
+#historia-espanhol {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    width: 55%;
+}
+
+#historia-frances {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    width: 55%;
+}
+
+#historia-coreano {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    width: 55%;
+}
+
+
+/* BOTÕES */
+
+#botao-ingles,
+#botao-espanhol,
+#botao-frances,
+#botao-coreano {
+    background-color: #ff55c8;
+    border: 4px solid black;
+    box-shadow: 5px 5px black;
+    color: black;
+    display: block;
+    font-size: 11px;
+    margin: 25px auto 10px auto;
+    padding: 15px;
+    text-decoration: none;
+    width: 55%;
+}
+
+#botao-ingles:hover,
+#botao-espanhol:hover,
+#botao-frances:hover,
+#botao-coreano:hover {
+    background-color: #ffe66d;
+    transform: translateY(-3px);
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+#mundo-ingles:hover,
+#mundo-espanhol:hover,
+#mundo-frances:hover,
+#mundo-coreano:hover {
+    border-color: #ffe66d;
+}
+
+
+/* RODAPÉ */
+
+#rodape {
+    margin-top: 45px;
+    padding: 20px;
+}
+
+#botaostart {
+    padding: 20px;
+    background-color: #ffee00;
+    color: #770086;
+    font-size: 11px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#voltar:hover {
+    color: #ff55c8;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+
+    #mundo-ingles,
+    #mundo-espanhol,
+    #mundo-frances,
+    #mundo-coreano {
+        width: 95%;
+    }
+
+    #imagem-ingles,
+    #imagem-espanhol,
+    #imagem-frances,
+    #imagem-coreano {
+        height: 180px;
+        width: 90%;
+    }
+
+    #historia-ingles,
+    #historia-espanhol,
+    #historia-frances,
+    #historia-coreano {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    #botao-ingles,
+    #botao-espanhol,
+    #botao-frances,
+    #botao-coreano {
+        width: 90%;
+    }
+
+    #titulo {
+        font-size: 16px;
+    }
+
+    #titulo-escolha {
+        font-size: 13px;
+    }
+
+
+
+}

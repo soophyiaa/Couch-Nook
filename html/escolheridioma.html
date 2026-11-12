@@ -4,75 +4,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>escolher idiomas</title>
+
+    <title>ESCOLHA SEU IDIOMA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/escolheridioma.css">
 </head>
 
-
-<body>
+<body id="corpo">
 
     <div id="painelprincipal">
 
-        <div id="cabeçalho">
-            <header>
-                <h1>COUCH&NOOK</h1>
-            </header>
-        </div>
-        <br>
+        <header id="cabecalho">
+            <h1 id="titulo">COUCH & NOOK</h1>
+        </header>
 
-        <main>
+        <main id="principal">
+
+
+
             <div id="escolha">
-                <section>
-                    <h2>escolha seu idioma!</h2>
-                    <p>agora sua jornada está prestes a começar! conheça a cultura, saboreie uma culinária distinta, e
-                        se
-                        divirta conhecendo seu mais novo idioma! </p>
-                </section>
+
+
+                <h2 id="titulo-escolha">CHOOSE YOUR WORLD!</h2>
+
+                <p id="texto-escolha">
+                    Escolha um idioma e explore um novo mundo!
+                </p>
             </div>
-            <br>
+
 
             <div id="escolhamundos">
 
+                <!-- INGLÊS -->
 
-                <div id="mundo-ingles">
-                  <a href="http://127.0.0.1:5500/ing_selecionado.html"><h2>GB</h2></a>
-                    <p>INGLÊS</p>
-                    <span>MUNDO LONDRES</span>
-                </div>
+                <details id="mundo-ingles">
+
+                    <summary id="resumo-ingles">
+                        <img id="bandeira-ingles" src="https://flagcdn.com/w320/gb.png" alt="Bandeira do Reino Unido">
+
+                        <p id="nome-ingles">ENGLISH</p>
+
+                        <span id="local-ingles">LONDON - UNITED KINGDOM</span>
+                    </summary>
+
+                    <div id="conteudo-ingles">
+
+                        <h2 id="titulo-ingles">WELCOME TO LONDON!</h2>
+
+                        <img id="imagem-ingles" src="../imagens/londres.png" alt="Paisagem histórica de Londres">
+
+                        <p id="historia-ingles">
+                            Explore a história de Londres, uma cidade marcada
+                            por castelos, palácios, construções medievais e
+                            tradições britânicas. Conheça lugares históricos
+                            e descubra como a cultura inglesa se desenvolveu
+                            ao longo dos séculos.
+                        </p>
+
+                        <a id="botao-ingles" href="ingles.html">
+                            ARE YOU READY?
+                        </a>
+
+                    </div>
+
+                </details>
 
 
-                <div id="mundo-japones">
-                  <a href="http://127.0.0.1:5500/jap_selecionado.html"><h2>JP</h2></a> 
-                    <p>JAPONÊS</p>
-                    <span>MUNDO EDO</span>
-                </div>
+                <!-- ESPANHOL -->
+
+                <details id="mundo-espanhol">
+
+                    <summary id="resumo-espanhol">
+                        <img id="bandeira-espanhol" src="https://flagcdn.com/w320/es.png" alt="Bandeira da Espanha">
+
+                        <p id="nome-espanhol">ESPAÑOL</p>
+
+                        <span id="local-espanhol">ANDALUSIA - SPAIN</span>
+                    </summary>
+
+                    <div id="conteudo-espanhol">
+
+                        <h2 id="titulo-espanhol">BIENVENIDO A ANDALUCÍA!</h2>
+
+                        <img id="imagem-espanhol" src="../imagens/andaluzia.png" alt="Paisagem histórica da Andaluzia">
+
+                        <p id="historia-espanhol">
+                            Descubra a história da Andaluzia, região espanhola
+                            conhecida por sua arquitetura islâmica, palácios,
+                            pátios ornamentados e influência cultural árabe.
+                            Explore a riqueza histórica da região e conheça
+                            monumentos como a Alhambra.
+                        </p>
+
+                        <a id="botao-espanhol" href="espanhol.html">
+                            ¿ESTÁS LISTO?
+                        </a>
+
+                    </div>
+
+                </details>
 
 
-                <div id="mundo-espanhol">
-                    <a href="http://127.0.0.1:5500/esp_selecionado.html"><h2>ES</h2></a> 
-                    <p>ESPANHOL</p>
-                    <span>MUNDO ANDALUZIA</span>
-                </div>
+                <!-- FRANCÊS -->
+
+                <details id="mundo-frances">
+
+                    <summary id="resumo-frances">
+                        <img id="bandeira-frances" src="https://flagcdn.com/w320/fr.png" alt="Bandeira da França">
+
+                        <p id="nome-frances">FRANÇAIS</p>
+
+                        <span id="local-frances">PARIS - FRANCE</span>
+                    </summary>
+
+                    <div id="conteudo-frances">
+
+                        <h2 id="titulo-frances">BIENVENUE À PARIS!</h2>
+
+                        <img id="imagem-frances" src="../imagens/paris.png" alt="Paisagem histórica de Paris">
+
+                        <p id="historia-frances">
+                            Viaje pela história de Paris, uma cidade repleta
+                            de construções antigas, monumentos, catedrais e
+                            palácios. Conheça a arquitetura francesa e explore
+                            os acontecimentos históricos que transformaram
+                            Paris em um dos principais centros culturais
+                            da Europa.
+                        </p>
+
+                        <a id="botao-frances" href="frances.html">
+                            ÊTES-VOUS PRÊT?
+                        </a>
+
+                    </div>
+
+                </details>
 
 
-                <div id="mundo-frances">
-                  <a href="http://127.0.0.1:5500/fran_selecionado.html"><h2>FR</h2></a> 
-                    <p>FRANCÊS</p>
-                    <span>MUNDO PARIS</span>
-                </div>
+                <!-- COREANO -->
 
+                <details id="mundo-coreano">
 
-                <div id="mundo-coreano">
-                    <a href="http://127.0.0.1:5500/ko_selecionado.html"><h2>KR</h2></a> 
-                    <p>COREANO</p>
-                    <span>MUNDO JOSEON</span>
-                </div>
+                    <summary id="resumo-coreano">
+                        <img id="bandeira-coreano" src="https://flagcdn.com/w320/kr.png"
+                            alt="Bandeira da Coreia do Sul">
+
+                        <p id="nome-coreano">한국어</p>
+
+                        <span id="local-coreano">JOSEON - SOUTH KOREA</span>
+                    </summary>
+
+                    <div id="conteudo-coreano">
+
+                        <h2 id="titulo-coreano">조선에 오신 것을 환영합니다!</h2>
+
+                        <img id="imagem-coreano" src="../imagens/joseon.png"
+                            alt="Paisagem histórica da dinastia Joseon">
+
+                        <p id="historia-coreano">
+                            Conheça a história da dinastia Joseon, um dos
+                            períodos mais importantes da Coreia. Explore
+                            palácios tradicionais, vilas históricas,
+                            construções orientais e costumes que marcaram
+                            a cultura coreana durante séculos.
+                        </p>
+
+                        <a id="botao-coreano" href="coreano.html">
+                            준비됐나요?
+                        </a>
+
+                    </div>
+
+                </details>
 
             </div>
 
+        </main>
+
+        <footer id="rodape">
+            <a id="botaostart" href="../home.html">INSERT COIN TO CONTINUE ...</a>
+        </footer>
+
+
     </div>
 
-    </main>
 
 </body>
 
