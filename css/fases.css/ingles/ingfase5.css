@@ -1,0 +1,288 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #250044;
+    color: white;
+    font-family: "Press Start 2P", cursive;
+}
+
+#pagina {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#cabecalho {
+    padding: 30px 15px;
+    text-align: center;
+    background-color: #7629a8;
+    border-bottom: 5px solid #ff55c8;
+}
+
+#titulo {
+    margin: 0;
+    color: #ffe66d;
+    font-family: "Press Start 2P", cursive;
+    font-size: 28px;
+}
+
+#bordao {
+    margin-top: 15px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 11px;
+}
+
+#conteudo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+#identificacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #7629a8;
+    border: 4px solid #ff55c8;
+}
+
+#bandeira {
+    position: relative;
+    width: 92px;
+    height: 62px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #012169;
+    border: 2px solid white;
+}
+
+#diagonal-branca-1,
+#diagonal-branca-2 {
+    position: absolute;
+    width: 140%;
+    height: 25%;
+    left: -20%;
+    top: 37%;
+    background-color: white;
+}
+
+#diagonal-branca-1 {
+    transform: rotate(34deg);
+}
+
+#diagonal-branca-2 {
+    transform: rotate(-34deg);
+}
+
+#diagonal-vermelha-1,
+#diagonal-vermelha-2 {
+    position: absolute;
+    width: 140%;
+    height: 10%;
+    left: -20%;
+    top: 45%;
+    background-color: #c8102e;
+}
+
+#diagonal-vermelha-1 {
+    transform: rotate(34deg);
+}
+
+#diagonal-vermelha-2 {
+    transform: rotate(-34deg);
+}
+
+#faixa-horizontal-branca {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 32.5%;
+    background-color: white;
+}
+
+#faixa-vertical-branca {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 37.5%;
+    background-color: white;
+}
+
+#faixa-horizontal-vermelha {
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 41%;
+    background-color: #c8102e;
+}
+
+#faixa-vertical-vermelha {
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    left: 44%;
+    background-color: #c8102e;
+}
+
+#dados-fase {
+    flex: 1;
+}
+
+#nome-idioma {
+    margin: 0 0 12px;
+    color: #ffe66d;
+    font-family: "Press Start 2P", cursive;
+    font-size: 18px;
+}
+
+#nome-conteudo {
+    margin: 0;
+    font-family: "Press Start 2P", cursive;
+    font-size: 11px;
+}
+
+#numero-fase {
+    color: #ffe66d;
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+}
+
+#aula {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #7629a8;
+    border: 4px solid #ff55c8;
+}
+
+h3 {
+    color: #ffe66d;
+    font-family: "Press Start 2P", cursive;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+p {
+    line-height: 1.8;
+}
+
+#exemplo-1,
+#exemplo-2,
+#exemplo-3,
+#exemplo-4,
+#resumo {
+    padding: 15px;
+    background-color: #250044;
+    border: 2px solid #ff55c8;
+}
+
+#exercicios {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #7629a8;
+    border: 4px solid #ff55c8;
+}
+
+#questao-1,
+#questao-2,
+#questao-3,
+#questao-4,
+#questao-5,
+#questao-6 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #250044;
+    border: 2px solid #ff55c8;
+}
+
+input {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ffe66d;
+    background-color: white;
+    font-size: 15px;
+}
+
+details {
+    margin-top: 10px;
+}
+
+summary {
+    width: fit-content;
+    padding: 10px;
+    color: #250044;
+    background-color: #ffe66d;
+    cursor: pointer;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+a {
+    display: inline-block;
+    padding: 15px;
+    color: #250044;
+    background-color: #ffe66d;
+    border: 3px solid #ff55c8;
+    text-decoration: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+}
+
+a:hover {
+    background-color: #ff55c8;
+    color: white;
+}
+
+#rodape {
+    padding: 20px;
+    text-align: center;
+    color: #ffe66d;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+}
+
+@media (max-width: 600px) {
+    #titulo {
+        font-size: 18px;
+    }
+
+    #nome-idioma {
+        font-size: 14px;
+    }
+
+    #numero-fase {
+        width: 100%;
+    }
+
+    #conteudo {
+        width: 94%;
+    }
+
+    #aula,
+    #exercicios {
+        padding: 15px;
+    }
+
+    #navegacao {
+        flex-direction: column;
+    }
+
+    a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,269 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #06152e;
+    color: white;
+}
+
+#pagina {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+}
+
+#cabecalho {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #0047a0;
+    border-bottom: 5px solid #cd2e3a;
+}
+
+#titulo {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+
+#subtitulo {
+    font-size: 10px;
+    color: white;
+    margin: 15px;
+}
+
+#conteudo {
+    width: 100%;
+    max-width: 1230px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+#identificacao {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #0047a0;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#bandeira {
+    width: 136px;
+    height: 88px;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+#taegeuk {
+    
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(to bottom, #cd2e3a 50%, #0047a0 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 21px;
+    left: 44px;
+  
+}
+
+
+#geon {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 21px;
+    color: black;
+}
+
+#gam {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 21px;
+    color: black;
+}
+
+#ri {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 21px;
+    color: black;
+}
+
+#gon {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 21px;
+    color: black;
+}
+
+#dados-guia {
+    text-align: center;
+}
+
+#nome-idioma {
+    font-size: 14px;
+    color: white;
+}
+
+#nome-guia {
+    font-size: 16px;
+    color: #cd2e3a;
+    margin: 15px 0;
+}
+
+#numero-guia {
+    font-size: 10px;
+    color: white;
+}
+
+#objetivo {
+    width: 100%;
+    background-color: #0047a0;
+    border: 5px solid white;
+    padding: 25px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#explicacao {
+    width: 100%;
+    background-color: #0047a0;
+    border: 5px solid white;
+    padding: 25px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#secao-1,
+#secao-2,
+#secao-3,
+#secao-4,
+#secao-5,
+#secao-6,
+#secao-7,
+#secao-8,
+#secao-9 {
+    background-color: #06152e;
+    border: 2px solid #cd2e3a;
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+#alfabeto {
+    background-color: #0047a0;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 15px 0;
+    line-height: 2;
+}
+
+#exemplo-1,
+#exemplo-2,
+#exemplo-3,
+#exemplo-4,
+#exemplo-5,
+#exemplo-6,
+#exemplo-7,
+#exemplo-8,
+#exemplo-9,
+#exemplo-10,
+#exemplo-11,
+#exemplo-12 {
+    background-color: #06152e;
+    border: 2px solid #cd2e3a;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 11px;
+    line-height: 2;
+}
+
+#exercicios {
+    width: 100%;
+    background-color: #0047a0;
+    border: 5px solid white;
+    padding: 30px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#questao-1,
+#questao-2,
+#questao-3,
+#questao-4,
+#questao-5,
+#questao-6 {
+    background-color: #06152e;
+    border: 2px solid #cd2e3a;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+summary {
+    cursor: pointer;
+    color: #cd2e3a;
+    margin-top: 12px;
+    font-size: 10px;
+}
+
+details {
+    margin-top: 12px;
+    line-height: 1.8;
+}
+
+#navegacao {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#navegacao a {
+    display: inline-block;
+    background-color: #cd2e3a;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 9px;
+    text-align: center;
+}
+
+#rodape {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #0047a0;
+    border-top: 5px solid #cd2e3a;
+    font-size: 9px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #titulo {
+        font-size: 16px;
+    }
+
+    #identificacao {
+        padding: 20px;
+    }
+
+    #nome-guia {
+        font-size: 12px;
+    }
+
+    #navegacao a {
+        display: block;
+    }
+}

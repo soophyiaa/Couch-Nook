@@ -1,0 +1,274 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #06152e;
+    color: white;
+}
+
+#pagina {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+}
+
+#cabecalho {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    border: none;
+    border-bottom: 5px solid #cd2e3a;
+    background-color: #0047a0;
+}
+
+#titulo {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+
+#subtitulo {
+    font-size: 10px;
+    color: white;
+    margin: 15px;
+}
+
+#conteudo {
+    width: 100%;
+    max-width: 1230px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+#identificacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #0047a0;
+    border: 5px solid #cd2e3a;
+}
+
+#bandeira {
+    display: block;
+    position: relative;
+    width: 112px;
+    height: 77px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#taegeuk {
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(to bottom, #cd2e3a 50%, #0047a0 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 35px;
+}
+
+#geon {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    font-size: 17px;
+    color: black;
+}
+
+#gam {
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    font-size: 17px;
+    color: black;
+}
+
+#ri {
+    position: absolute;
+    bottom: 3px;
+    left: 8px;
+    font-size: 17px;
+    color: black;
+}
+
+#gon {
+    position: absolute;
+    bottom: 3px;
+    right: 8px;
+    font-size: 17px;
+    color: black;
+}
+
+#dados-fase {
+    text-align: left;
+    flex-grow: 1;
+}
+
+#nome-idioma {
+    font-size: 16px;
+    color: white;
+}
+
+#nome-conteudo {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #ffdddd;
+}
+
+#numero-fase {
+    font-size: 10px;
+    color: white;
+}
+
+#objetivo {
+    width: 100%;
+    background-color: #0047a0;
+    border: 5px solid #cd2e3a;
+    padding: 25px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#explicacao {
+    width: 100%;
+    background-color: #0047a0;
+    border: 5px solid #cd2e3a;
+    padding: 30px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#secao-1,
+#secao-2,
+#secao-3,
+#secao-4,
+#secao-5,
+#secao-6,
+#secao-7,
+#secao-8,
+#secao-9 {
+    width: 100%;
+    background-color: #0b2850;
+    border: 2px solid white;
+    padding: 25px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+#exemplo-1,
+#exemplo-2,
+#exemplo-3,
+#exemplo-4,
+#exemplo-5,
+#exemplo-6,
+#exemplo-7,
+#exemplo-8,
+#exemplo-9,
+#exemplo-10,
+#exemplo-11,
+#exemplo-12 {
+    background-color: #06152e;
+    border: 2px solid #cd2e3a;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+#exercicios {
+    background-color: #0047a0;
+    border: 5px solid #cd2e3a;
+    padding: 30px;
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+#questao-1,
+#questao-2,
+#questao-3,
+#questao-4,
+#questao-5,
+#questao-6 {
+    background-color: #0b2850;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+h2 {
+    color: #ffdddd;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+p {
+    font-size: 10px;
+    line-height: 2.2;
+}
+
+summary {
+    cursor: pointer;
+    color: #ffdddd;
+    margin-top: 12px;
+    font-size: 10px;
+}
+
+details {
+    margin-top: 12px;
+    line-height: 1.8;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+#navegacao a {
+    background-color: #0047a0;
+    color: white;
+    border: 2px solid #cd2e3a;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 9px;
+    text-align: center;
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+    font-size: 9px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #titulo {
+        font-size: 16px;
+    }
+
+    #identificacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #dados-fase {
+        text-align: center;
+    }
+
+    #navegacao {
+        flex-direction: column;
+    }
+}

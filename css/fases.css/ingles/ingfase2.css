@@ -1,0 +1,333 @@
+
+* {
+    box-sizing: border-box;
+      font-family: "Press Start 2P";
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #250044;
+    color: white;
+    font-family: "Press Start 2P";
+}
+
+#pagina {
+    width: 100%;
+    min-height: 100vh;
+    padding: 35px 5%;
+}
+
+#cabecalho {
+    width: 100%;
+    padding: 25px 10px;
+    border: 4px solid #ff55c8;
+    background-color: #7629a8;
+    text-align: center;
+    box-shadow: 0 7px 0 #150027;
+}
+
+#titulo {
+    margin: 0;
+    color: #ffe66d;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+#subtitulo {
+    margin: 15px 0 0;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+#conteudo {
+    width: 100%;
+    margin-top: 35px;
+}
+
+#identificacao {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+    border: 4px solid #ff55c8;
+    background-color: #7629a8;
+    box-shadow: 0 6px 0 #150027;
+}
+
+#bandeira {
+    font-size: 55px;
+}
+
+#dados-fase {
+    flex: 1;
+}
+
+#nome-idioma {
+    margin: 0;
+    color: #ffe66d;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+#nome-conteudo {
+    margin: 12px 0 0;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+#numero-fase {
+    padding: 15px;
+    border: 3px solid #ffe66d;
+    color: #ffe66d;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+#aula {
+    margin-top: 35px;
+    padding: 30px;
+    border: 4px solid #ff55c8;
+    background-color: #3c1261;
+    box-shadow: 0 6px 0 #150027;
+}
+
+#titulo-aula {
+    margin: 0 0 25px;
+    color: #ffe66d;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#introducao {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+#subtitulo-nome,
+#subtitulo-idade,
+#subtitulo-nacionalidade,
+#subtitulo-profissao,
+#subtitulo-resumo {
+    margin-top: 35px;
+    color: #ff8cda;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#exemplo-nome,
+#exemplo-idade,
+#exemplo-nacionalidade,
+#exemplo-profissao {
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px solid #ff55c8;
+    background-color: #7629a8;
+}
+
+#exemplo-frase-nacionalidade,
+#exemplo-frase-profissao {
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px dashed #ffe66d;
+    background-color: #250044;
+}
+
+#resumo {
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px solid #ffe66d;
+    background-color: #250044;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+h3 {
+    line-height: 1.8;
+}
+
+#exercicios {
+    margin-top: 35px;
+    padding: 30px;
+    border: 4px solid #ff55c8;
+    background-color: #3c1261;
+    box-shadow: 0 6px 0 #150027;
+}
+
+#titulo-exercicios {
+    margin: 0;
+    color: #ffe66d;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#descricao-exercicios {
+    margin: 20px 0 30px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#questao-1,
+#questao-2,
+#questao-3,
+#questao-4,
+#questao-5,
+#questao-6 {
+    margin-top: 20px;
+    padding: 25px;
+    border: 3px solid #ff55c8;
+    background-color: #7629a8;
+}
+
+#titulo-questao-1,
+#titulo-questao-2,
+#titulo-questao-3,
+#titulo-questao-4,
+#titulo-questao-5,
+#titulo-questao-6 {
+    color: #ffe66d;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 3px solid #ffe66d;
+    background-color: #250044;
+    color: white;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #d9b9ed;
+}
+
+details {
+    margin-top: 20px;
+    color: #ffe66d;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+summary {
+    width: fit-content;
+    cursor: pointer;
+    color: #ffe66d;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#voltar-mapa,
+#fase-anterior {
+    padding: 20px;
+    border: 3px solid #ff55c8;
+    background-color: #7629a8;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+#proxima-fase {
+    padding: 20px;
+    border: 3px solid #ffe66d;
+    background-color: #ffe66d;
+    color: #250044;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+#voltar-mapa:hover,
+#fase-anterior:hover {
+    background-color: #ff55c8;
+}
+
+#proxima-fase:hover {
+    background-color: #ff8cda;
+}
+
+#rodape {
+    margin-top: 40px;
+    padding: 20px;
+    color: #ff8cda;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+
+    #pagina {
+        padding: 15px 4%;
+    }
+
+    #titulo {
+        font-size: 20px;
+    }
+
+    #subtitulo {
+        font-size: 8px;
+    }
+
+    #identificacao {
+        gap: 15px;
+        padding: 18px;
+    }
+
+    #bandeira {
+        font-size: 40px;
+    }
+
+    #nome-idioma {
+        font-size: 16px;
+    }
+
+    #nome-conteudo {
+        font-size: 9px;
+    }
+
+    #numero-fase {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    #aula,
+    #exercicios {
+        padding: 20px;
+    }
+
+    #titulo-aula,
+    #titulo-exercicios {
+        font-size: 14px;
+    }
+
+    #navegacao {
+        flex-direction: column;
+    }
+
+    #voltar-mapa,
+    #fase-anterior,
+    #proxima-fase {
+        text-align: center;
+    }
+
+}
