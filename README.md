@@ -59,4 +59,4 @@ O objetivo do **Couch & Nook** é unir **prática linguística** e **imersão cu
 
 1. Clone ou baixe este repositório na sua máquina:
    ```bash
-   git clone [https://github.com/soophyiaa/Couch-Nook.git](https://github.com/soophyiaa/Couch-Nook.git)
+   git clone https://github.com/soophyiaa/Couch-Nook.git
